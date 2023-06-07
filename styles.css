@@ -1,38 +1,19 @@
-*{
-    background-color: antiquewhite;
-}
-body{
+.navbar{
+    list-style-type:none;
     margin: 0;
     padding: 0;
+    background-color: darkseagreen;
 }
-h1{
-    color:cornflowerblue;
-    position: relative;
-    top: 250px;
-    text-align:center;
-    font-size: 50px;
-    font-family:Arial, Helvetica, sans-serif;
+.navbar li{
+    display: inline-block;
 }
-.buttons{
-    margin: 0 auto;
-    padding: 20px;
-    text-align: center;
+.navbar li a{
+    border: 1px;
+    display: block;
+    padding: 8px 16px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
 }
-@media screen {
-    .buttons{
-        max-width: 100%;
-        padding: 10px;
-    }
-}
-a{
-    color:darkslateblue;
-    text-decoration: initial;
-    font-size: 30px;
-    font-family:Arial, Helvetica, sans-serif;
-    position:relative;
-    top: 300px;
-
-}
-a:hover{
-    color: cadetblue;
+.navbar li a:hover{
+    background-color: aquamarine;
 }
