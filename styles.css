@@ -1,19 +1,61 @@
-.navbar{
-    list-style-type:none;
+*{
+    font-family: 標楷體;
+    background-color: antiquewhite;
+}
+body{
     margin: 0;
     padding: 0;
-    background-color: darkseagreen;
 }
-.navbar li{
+h1{
+    font-size: 50px;
+    position: relative;
+    text-align: center;
+}
+.buttons{
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+@media screen {
+    .buttons{
+        max-width: 100%;
+        padding: 10px;
+    }
+}
+.two{
+    position: relative;
+    margin-left: 950px;
+    margin-top: 150px;
+    /*border: solid 2px rgb(217, 217, 15);*/
+    width: 90px;
+    
+}
+.three{
+    position: relative;
+    margin-left: 500px;
+    bottom: 40px;
+    /*border: solid 2px rgb(21, 21, 2);*/
+    width: 120px;
+
+}
+.four{
+    position: relative;
+    margin-left: 250px;
+    margin-top: 150px;
+}
+.five{
+    position: relative;
+    margin-right: 250px;
+    bottom: 40px;
+    /*border: solid 2px rgb(217, 217, 15);*/
+    width: 120px;
     display: inline-block;
 }
-.navbar li a{
-    border: 1px;
-    display: block;
-    padding: 8px 16px;
-    text-decoration: none;
-    color: rgb(0, 0, 0);
+a{
+    color:darkcyan;
+    font-size: 30px;
+    font-family:Arial, Helvetica, sans-serif;
 }
-.navbar li a:hover{
-    background-color: aquamarine;
+a:hover{
+    color: cadetblue;
 }
